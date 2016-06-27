@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.20)  20 JUN 2016 16:16
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.18)  27 JUN 2016 02:23
 entering extended mode
 **./Relatorio_Victoria_T2.tex
 (Relatorio_Victoria_T2.tex
@@ -506,7 +506,77 @@ Package grfext Info: Graphics extension search list:
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 452.
 ))
-No file Relatorio_Victoria_T2.aux.
+(Relatorio_Victoria_T2.aux
+
+LaTeX Warning: Label `red2' multiply defined.
+
+
+LaTeX Warning: Label `sub@red2' multiply defined.
+
+
+LaTeX Warning: Label `red2' multiply defined.
+
+
+LaTeX Warning: Label `sub@red2' multiply defined.
+
+
+LaTeX Warning: Label `red2' multiply defined.
+
+
+LaTeX Warning: Label `sub@red2' multiply defined.
+
+
+LaTeX Warning: Label `red2' multiply defined.
+
+
+LaTeX Warning: Label `sub@red2' multiply defined.
+
+
+LaTeX Warning: Label `Original' multiply defined.
+
+
+LaTeX Warning: Label `Original' multiply defined.
+
+
+LaTeX Warning: Label `Original' multiply defined.
+
+
+LaTeX Warning: Label `Original' multiply defined.
+
+
+LaTeX Warning: Label `Original' multiply defined.
+
+
+LaTeX Warning: Label `Original' multiply defined.
+
+
+LaTeX Warning: Label `Original' multiply defined.
+
+
+LaTeX Warning: Label `red2' multiply defined.
+
+
+LaTeX Warning: Label `sub@red2' multiply defined.
+
+
+LaTeX Warning: Label `red2' multiply defined.
+
+
+LaTeX Warning: Label `sub@red2' multiply defined.
+
+
+LaTeX Warning: Label `red2' multiply defined.
+
+
+LaTeX Warning: Label `sub@red2' multiply defined.
+
+
+LaTeX Warning: Label `red2' multiply defined.
+
+
+LaTeX Warning: Label `sub@red2' multiply defined.
+
+)
 \openout1 = `Relatorio_Victoria_T2.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 16.
@@ -521,6 +591,7 @@ LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 16.
 LaTeX Font Info:    ... okay on input line 16.
+
 -- Lines per column: 58 (exact).
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -536,202 +607,275 @@ LaTeX Font Info:    ... okay on input line 16.
 \makeMPintoPDFobject=\count105
 \everyMPtoPDFconversion=\toks20
 )
-Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+! Package inputenc Error: Unicode char ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...o de criação de imagens exploráveis ​
+                                                  ​remonta ao início do P...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+! Package inputenc Error: Unicode char ​ (U+200B)
+(inputenc)                not set up for use with LaTeX.
+
+See the inputenc package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.36 ...e criação de imagens exploráveis ​​
+                                                  remonta ao início do Phot...
+
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 40--41
 
  []
 
-<morf_test.png, id=1, 602.25pt x 884.30376pt>
-File: morf_test.png Graphic file (type png)
- <use morf_test.png>
-Package pdftex.def Info: morf_test.png used on input line 70.
-(pdftex.def)             Requested size: 120.44786pt x 176.85762pt.
+<imagem1.jpg, id=1, 319.1925pt x 259.7203pt>
+File: imagem1.jpg Graphic file (type jpg)
+ <use imagem1.jpg>
+Package pdftex.def Info: imagem1.jpg used on input line 50.
+(pdftex.def)             Requested size: 79.79793pt x 64.92992pt.
 
-<q1-bh1.png, id=2, 432.11438pt x 514.17094pt>
+<imagem2.jpg, id=2, 319.1925pt x 259.7203pt>
+File: imagem2.jpg Graphic file (type jpg)
+ <use imagem2.jpg>
+Package pdftex.def Info: imagem2.jpg used on input line 52.
+(pdftex.def)             Requested size: 79.79793pt x 64.92992pt.
+
+<deteccao.png, id=3, 188.20313pt x 187.45032pt>
+File: deteccao.png Graphic file (type png)
+ <use deteccao.png>
+Package pdftex.def Info: deteccao.png used on input line 62.
+(pdftex.def)             Requested size: 94.10132pt x 93.72491pt.
+
+<olhos.png, id=5, 214.55156pt x 96.36pt>
+File: olhos.png Graphic file (type png)
+ <use olhos.png>
+Package pdftex.def Info: olhos.png used on input line 64.
+(pdftex.def)             Requested size: 107.27551pt x 48.17987pt.
+
+<nariz.png, id=6, 163.3603pt x 98.61844pt>
+File: nariz.png Graphic file (type png)
+ <use nariz.png>
+Package pdftex.def Info: nariz.png used on input line 66.
+(pdftex.def)             Requested size: 81.67995pt x 49.30908pt.
+
+<boca.png, id=7, 182.93344pt x 103.13531pt>
+File: boca.png Graphic file (type png)
+ <use boca.png>
+Package pdftex.def Info: boca.png used on input line 68.
+(pdftex.def)             Requested size: 91.46649pt x 51.56752pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<q1-bh1.png, id=8, 432.11438pt x 514.17094pt>
 File: q1-bh1.png Graphic file (type png)
  <use q1-bh1.png>
-Package pdftex.def Info: q1-bh1.png used on input line 80.
+Package pdftex.def Info: q1-bh1.png used on input line 76.
 (pdftex.def)             Requested size: 108.02832pt x 128.54242pt.
 
-<q1-bh2.png, id=3, 432.11438pt x 514.17094pt>
+<q1-bh2.png, id=9, 432.11438pt x 514.17094pt>
 File: q1-bh2.png Graphic file (type png)
  <use q1-bh2.png>
-Package pdftex.def Info: q1-bh2.png used on input line 82.
+Package pdftex.def Info: q1-bh2.png used on input line 78.
 (pdftex.def)             Requested size: 108.02832pt x 128.54242pt.
- [1{C:/Users/Victóri/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
-
- <./morf_test.png (PNG copy)> <./q1-bh1.png (PNG copy)> <./q1-bh2.png (PNG copy
-)>]
-<q1-bh2-i.png, id=17, 432.11438pt x 514.17094pt>
+<q1-bh2-i.png, id=10, 432.11438pt x 514.17094pt>
 File: q1-bh2-i.png Graphic file (type png)
  <use q1-bh2-i.png>
-Package pdftex.def Info: q1-bh2-i.png used on input line 89.
+Package pdftex.def Info: q1-bh2-i.png used on input line 85.
 (pdftex.def)             Requested size: 108.02832pt x 128.54242pt.
 
-<q1-bh2-bin.png, id=18, 432.11438pt x 514.17094pt>
+<q1-bh2-bin.png, id=11, 432.11438pt x 514.17094pt>
 File: q1-bh2-bin.png Graphic file (type png)
  <use q1-bh2-bin.png>
-Package pdftex.def Info: q1-bh2-bin.png used on input line 98.
+Package pdftex.def Info: q1-bh2-bin.png used on input line 94.
 (pdftex.def)             Requested size: 108.02832pt x 128.54242pt.
 
-<fechamento.png, id=19, 432.11438pt x 514.17094pt>
+[1{C:/Users/Andre Felipe/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
+
+
+ <./imagem1.jpg (PNG copy)> <./imagem2.jpg (PNG copy)> <./deteccao.png> <./olho
+s.png (PNG copy)> <./nariz.png (PNG copy)> <./boca.png (PNG copy)> <./q1-bh1.pn
+g (PNG copy)> <./q1-bh2.png (PNG copy)>]
+<fechamento.png, id=26, 432.11438pt x 514.17094pt>
 File: fechamento.png Graphic file (type png)
  <use fechamento.png>
-Package pdftex.def Info: fechamento.png used on input line 107.
+Package pdftex.def Info: fechamento.png used on input line 103.
 (pdftex.def)             Requested size: 108.02832pt x 128.54242pt.
 
-<2.png, id=20, 323.70938pt x 264.23718pt>
+<2.png, id=27, 323.70938pt x 264.23718pt>
 File: 2.png Graphic file (type png)
  <use 2.png>
-Package pdftex.def Info: 2.png used on input line 119.
+Package pdftex.def Info: 2.png used on input line 115.
 (pdftex.def)             Requested size: 161.8543pt x 132.11826pt.
 
-<2-1.png, id=21, 323.70938pt x 264.23718pt>
+<2-1.png, id=28, 323.70938pt x 264.23718pt>
 File: 2-1.png Graphic file (type png)
  <use 2-1.png>
-Package pdftex.def Info: 2-1.png used on input line 129.
+Package pdftex.def Info: 2-1.png used on input line 125.
 (pdftex.def)             Requested size: 161.8543pt x 132.11826pt.
 
-Underfull \hbox (badness 3118) in paragraph at lines 135--137
+Underfull \hbox (badness 3118) in paragraph at lines 131--133
  \T1/aer/m/it/10 2.2: [] \T1/aer/m/n/10 A fun-��o \T1/aer/m/it/10 bwa-re-o-pen 
 \T1/aer/m/n/10 para pre-en-cher es-pa-�os
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--137
+Underfull \hbox (badness 10000) in paragraph at lines 131--133
 
  []
 
-<2-buracos.png, id=22, 323.70938pt x 264.23718pt>
+<2-buracos.png, id=29, 323.70938pt x 264.23718pt>
 File: 2-buracos.png Graphic file (type png)
  <use 2-buracos.png>
-Package pdftex.def Info: 2-buracos.png used on input line 140.
+Package pdftex.def Info: 2-buracos.png used on input line 136.
 (pdftex.def)             Requested size: 161.8543pt x 132.11826pt.
 
-<2distancia.png, id=23, 323.70938pt x 264.23718pt>
+<2distancia.png, id=30, 323.70938pt x 264.23718pt>
 File: 2distancia.png Graphic file (type png)
  <use 2distancia.png>
-Package pdftex.def Info: 2distancia.png used on input line 150.
+Package pdftex.def Info: 2distancia.png used on input line 146.
 (pdftex.def)             Requested size: 161.8543pt x 132.11826pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 156--158
+Underfull \hbox (badness 10000) in paragraph at lines 152--154
 
  []
 
-<2-wathershed.png, id=24, 323.70938pt x 264.23718pt>
+<2-wathershed.png, id=31, 323.70938pt x 264.23718pt>
 File: 2-wathershed.png Graphic file (type png)
  <use 2-wathershed.png>
-Package pdftex.def Info: 2-wathershed.png used on input line 161.
+Package pdftex.def Info: 2-wathershed.png used on input line 157.
 (pdftex.def)             Requested size: 161.8543pt x 132.11826pt.
 
 [2 <./q1-bh2-i.png (PNG copy)> <./q1-bh2-bin.png (PNG copy)> <./fechamento.png 
 (PNG copy)> <./2.png (PNG copy)> <./2-1.png (PNG copy)> <./2-buracos.png (PNG c
 opy)>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 176.
+(Font)              <7> on input line 172.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 176.
- <3-1-motionvec.png, id=28, 421.575pt x 316.18124pt>
+(Font)              <5> on input line 172.
+ <3-1-motionvec.png, id=35, 421.575pt x 316.18124pt>
 File: 3-1-motionvec.png Graphic file (type png)
 
 <use 3-1-motionvec.png>
-Package pdftex.def Info: 3-1-motionvec.png used on input line 188.
+Package pdftex.def Info: 3-1-motionvec.png used on input line 184.
 (pdftex.def)             Requested size: 105.39348pt x 79.0451pt.
- <3-1-f1.png, id=29, 395.97937pt x 288.3272pt>
+ <3-1-f1.png, id=36, 395.97937pt x 288.3272pt>
 File: 3-1-f1.png Graphic file (type png)
 
 <use 3-1-f1.png>
-Package pdftex.def Info: 3-1-f1.png used on input line 190.
+Package pdftex.def Info: 3-1-f1.png used on input line 186.
 (pdftex.def)             Requested size: 98.9946pt x 72.08162pt.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 190.
+(Font)              <8> on input line 186.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 190.
- <3-1-f2.png, id=30, 395.97937pt x 288.3272pt>
+(Font)              <6> on input line 186.
+ <3-1-f2.png, id=37, 395.97937pt x 288.3272pt>
 File: 3-1-f2.png Graphic file (type png)
 
 <use 3-1-f2.png>
-Package pdftex.def Info: 3-1-f2.png used on input line 192.
+Package pdftex.def Info: 3-1-f2.png used on input line 188.
 (pdftex.def)             Requested size: 98.9946pt x 72.08162pt.
- <3-1-resultado.png, id=31, 395.97937pt x 288.3272pt>
+ <3-1-resultado.png, id=38, 395.97937pt x 288.3272pt>
 File: 3-1-resultado.png Graphic file (type png)
 
 <use 3-1-resultado.png>
-Package pdftex.def Info: 3-1-resultado.png used on input line 194.
+Package pdftex.def Info: 3-1-resultado.png used on input line 190.
 (pdftex.def)             Requested size: 98.9946pt x 72.08162pt.
- <3-1-psnr.png, id=32, 395.97937pt x 288.3272pt>
+ <3-1-psnr.png, id=39, 395.97937pt x 288.3272pt>
 File: 3-1-psnr.png Graphic file (type png)
 
 <use 3-1-psnr.png>
-Package pdftex.def Info: 3-1-psnr.png used on input line 196.
+Package pdftex.def Info: 3-1-psnr.png used on input line 192.
 (pdftex.def)             Requested size: 98.9946pt x 72.08162pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<3-2-motionvec.png, id=33, 421.575pt x 316.18124pt>
+<3-2-motionvec.png, id=40, 421.575pt x 316.18124pt>
 File: 3-2-motionvec.png Graphic file (type png)
  <use 3-2-motionvec.png>
-Package pdftex.def Info: 3-2-motionvec.png used on input line 204.
+Package pdftex.def Info: 3-2-motionvec.png used on input line 200.
 (pdftex.def)             Requested size: 105.39348pt x 79.0451pt.
 
-<3-2-f1.png, id=34, 395.97937pt x 288.3272pt>
+<3-2-f1.png, id=41, 395.97937pt x 288.3272pt>
 File: 3-2-f1.png Graphic file (type png)
  <use 3-2-f1.png>
-Package pdftex.def Info: 3-2-f1.png used on input line 206.
+Package pdftex.def Info: 3-2-f1.png used on input line 202.
 (pdftex.def)             Requested size: 98.9946pt x 72.08162pt.
 
-<3-2-f2.png, id=35, 395.97937pt x 288.3272pt>
+<3-2-f2.png, id=42, 395.97937pt x 288.3272pt>
 File: 3-2-f2.png Graphic file (type png)
  <use 3-2-f2.png>
-Package pdftex.def Info: 3-2-f2.png used on input line 208.
+Package pdftex.def Info: 3-2-f2.png used on input line 204.
 (pdftex.def)             Requested size: 98.9946pt x 72.08162pt.
 
-<3-2-resultado.png, id=36, 392.96812pt x 288.3272pt>
+<3-2-resultado.png, id=43, 392.96812pt x 288.3272pt>
 File: 3-2-resultado.png Graphic file (type png)
  <use 3-2-resultado.png>
-Package pdftex.def Info: 3-2-resultado.png used on input line 210.
+Package pdftex.def Info: 3-2-resultado.png used on input line 206.
 (pdftex.def)             Requested size: 98.24178pt x 72.08162pt.
 
-<3-2-psnr.png, id=37, 392.96812pt x 288.3272pt>
+<3-2-psnr.png, id=44, 392.96812pt x 288.3272pt>
 File: 3-2-psnr.png Graphic file (type png)
  <use 3-2-psnr.png>
-Package pdftex.def Info: 3-2-psnr.png used on input line 212.
+Package pdftex.def Info: 3-2-psnr.png used on input line 208.
 (pdftex.def)             Requested size: 98.24178pt x 72.08162pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 224--225
+[]\T1/aer/m/n/8 http://scholar.harvard.edu/stanleychan/software/subpixel-
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
  [3 <./2distancia.png (PNG copy)> <./2-wathershed.png (PNG copy)> <./3-1-motion
 vec.png (PNG copy)> <./3-1-f1.png (PNG copy)> <./3-1-f2.png (PNG copy)> <./3-1-
 resultado.png (PNG copy)> <./3-1-psnr.png (PNG copy)> <./3-2-motionvec.png (PNG
  copy)> <./3-2-f1.png (PNG copy)> <./3-2-f2.png (PNG copy)> <./3-2-resultado.pn
-g (PNG copy)> <./3-2-psnr.png (PNG copy)>]
-Underfull \hbox (badness 10000) in paragraph at lines 228--229
-[]\T1/aer/m/n/8 http://scholar.harvard.edu/stanleychan/software/subpixel-
- []
-
-[4
+g (PNG copy)> <./3-2-psnr.png (PNG copy)>] [4
 
 ] (Relatorio_Victoria_T2.aux)
 
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3670 strings out of 493634
- 54699 string characters out of 3141305
- 120834 words of memory out of 3000000
- 6926 multiletter control sequences out of 15000+200000
+ 3699 strings out of 493634
+ 55089 string characters out of 3141291
+ 120906 words of memory out of 3000000
+ 6947 multiletter control sequences out of 15000+200000
  111248 words of font info for 139 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
- 42i,8n,24p,845b,266s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,24p,845b,313s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:
@@ -743,9 +887,9 @@ les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files (x86
 )/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files (x86)/M
 iKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Relatorio_Victoria_T2.pdf (4 pages, 3022590 bytes).
+Output written on Relatorio_Victoria_T2.pdf (4 pages, 2838223 bytes).
 PDF statistics:
- 80 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 106 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 131 words of extra memory for PDF output out of 10000 (max. 10000000)
 

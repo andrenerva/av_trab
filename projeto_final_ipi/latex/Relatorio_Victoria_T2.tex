@@ -30,46 +30,42 @@ No trabalho são aplicadas operações consideradas de médio nível no processa
 
 \section{Introdução}
 
-\IEEEPARstart{A}{baixo} uma breve explicação sobre cada operação trabalhada:
+\IEEEPARstart{F}{ace Swapping} é uma técnica de processamento de imagens que digitalmente envolve troca de rostos de dois ou mais sujeitos retratados em uma determinada fotografia. Uma variação conhecida da prática é facebombing , uma técnica similar que envolve tomar uma face em um grupo e aplicá-lo a todas as faces da foto. A prática aumentou radicalmente em popularidade em 2015, quando vários aplicativos automatizados foram criados para trocar instantaneamente os rostos na fotografia e vídeo.
 
-\subsection{Morfologia}
-A Morfologia Matemática em processamento de imagens trata de  extração de regiões de uma imagem, representação e descrição das formas de uma determinada região.
 
-Este processo é considerado de nível médio onde a saída do
-processo é um atributo da imagem.
+	A origem exata da troca de rosto é desconhecido, mas sua popularidade como um método de criação de imagens exploráveis ​​remonta ao início do Photoshop. 
 
-Porém, como estes atributos atributos são resultados de processamentos na estrutura geométrica dos objetos. São representados em formato de imagens digitais
-
-\subsection{Segmentação de imagens}
-Tecnicamente a segmentação é subdividir uma
-imagem em regiões ou componentes.
-
-No sistema visual humano a segmentação é uma
-tarefa subjetiva realizada no cérebro, pelos
-neurônios entre as áreas corticais de nível alto
-e médio.
-A segmentação deve concluir quando os objetos
-(ou regiões) de interesse para uma
-determinada aplicação tenham sido isolados.
-
-O método morfológico de segmentação utilizado nesse trabalho foi o de 'wathershed' que realiza a segmentação da imagem através do crescimento de regiões.
-
-É definido como de fato um divisor de águas de uma imagem em níveis de cinza e é análoga à noção de uma bacia de captação de um heightmap. Em suma, uma gota de água seguindo o gradiente de uma imagem flui ao longo de um caminho para alcançar finalmente um mínimo local. Intuitivamente, o divisor de águas correspondem aos limites das bacias hidrográficas adjacentes das gotas de água.
-
-\subsection{Codificação de vídeo}
-Essa operação foi utilizada para estimar o movimento entre frames de um vídeo para obter o melhor preditor dentro de sistema DPCM. A técnica de obter o quadro formado a partir dos preditores é chamada de compensação de movimento.
 
 \section{Metodologia}
-O trabalho foi dividido em três partes(3 questões), que serão tratadas separadamente a seguir:\newline
+O trabalho foi dividido em algumas partes, que serão tratadas separadamente a seguir:\newline
 
 \subsection*{Parte I}
-Dada a imagem:
+Primeiramente foram lidas duas imagens. Uma que será retirada as regiões de interesse como: olhos, nariz e boca; e outra que servirá de rosto base para a inserção dessas regiões.
 
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.2]{morf_test.png}
-	\caption{Original}
-	\label{Original}
+As imagem foram redimensionadas para 250x250 pixels para que pussuam as mesmas dimenções.
+
+\begin{figure}[h]
+\centering
+\subfigure[Imagem base]{
+\includegraphics[scale=0.25]{imagem1.jpg}}
+\subfigure[Imagem recorte\label{red2}]{
+\includegraphics[scale=0.25]{imagem2.jpg}}
+\end{figure}
+
+\subsection*{Parte II}
+Logo em seguida, foram detectadas as regiões de interesse (olhos, nariz e boca) e recortadas da imagem.
+
+
+\begin{figure}[h]
+\centering
+\subfigure[Imagem detecção]{
+\includegraphics[scale=0.5]{deteccao.png}}
+\subfigure[\label{red2}]{
+\includegraphics[scale=0.5]{olhos.png}}
+\subfigure[\label{red2}]{
+\includegraphics[scale=0.5]{nariz.png}}
+\subfigure[\label{red2}]{
+\includegraphics[scale=0.5]{boca.png}}
 \end{figure}
 	
 Utilizando o MATLAB, um programa foi feito para que a imagem acima apresentada fosse modificada e resultasse em uma imagem binária com os objetos que a compõem pretos e fundo branco. Para isso, antes de qualquer coisa, a imagem foi binarizada e percebido que em certos pontos perdia-se informações, pois em alguns lugares o fundo e objetos estavam classificados em um mesmo nível de cinza fazendo com que objetos também se tornassem fundo. Então, fez-se a transformada bottom-hat que é é utilizada para realçar objetos escuros sobre fundo claro utilizando uma função do próprio MATLAB e alternativamente aplicando o fechamento na imagem obtendo apenas o seu fundo e depois subtraindo a fundo da imagem original, que também caracteriza uma operação bottom-hat, e os resultados obtidos foram:
