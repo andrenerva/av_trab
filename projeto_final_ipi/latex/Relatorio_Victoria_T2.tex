@@ -62,13 +62,13 @@ Logo em seguida, foram detectadas as regiões de interesse (olhos, nariz e boca)
 \begin{figure}[h]
 \centering
 \subfigure[Imagem detecção]{
-\includegraphics[scale=0.3]{deteccao.png}}
+\includegraphics[scale=0.5]{deteccao.png}}
 \subfigure[\label{red2}]{
-\includegraphics[scale=0.5]{olhos.png}}
+\includegraphics[scale=0.6]{olhos.png}}
 \subfigure[\label{red2}]{
-\includegraphics[scale=0.5]{nariz.png}}
+\includegraphics[scale=0.6]{nariz.png}}
 \subfigure[\label{red2}]{
-\includegraphics[scale=0.5]{boca.png}}
+\includegraphics[scale=0.6]{boca.png}}
 \end{figure}
 \floatBarrier	
 
@@ -80,122 +80,39 @@ Para isso foi utilizada a função do MATLAB \textit{convhull}, função que ret
 \begin{figure}[h]
 \centering
 \subfigure[Convex-hull e borda]{
-\includegraphics[scale=0.3]{borda.png}}
+\includegraphics[scale=0.4]{borda.png}}
 \subfigure[Resultado \label{red2}]{
-\includegraphics[scale=0.3]{covex_hull.png}}
+\includegraphics[scale=0.4]{covex_hull.png}}
 \end{figure}
 
 \subsection{Parte IV}
 
-A partir das características foram criados pontos de destino para o mapeamento de um rosto para o outro. Obtendo assim a possição exata do rosto base.
-Comparacao de posição:
+A partir das características foram criados pontos de destino para o mapeamento de um rosto para o outro, e em seguida realizou-se o redimensionamento da face recortada para o tamanho da face base, para obter um encaixe preciso desse rosto a nova face. Obtendo assim a possição exata do rosto.
+Comparacao de posições:
 
 \begin{figure}[h]
 \centering
 \subfigure[Posição original]{
-\includegraphics[scale=0.3]{posicao_original.png}}
-\subfigure[Nova posicao \label{red2}]{
-\includegraphics[scale=0.3]{nova_posicao.png}}
+\includegraphics[scale=0.5]{posicao_original.png}}
+\subfigure[Nova posicao e redimensionada \label{red2}]{
+\includegraphics[scale=0.5]{nova_posicao.png}}
 \end{figure}
 
 
 
-\subsubsection*{2.1}
-A imagem foi binarizada como na primeira parte, onde as células são pretas e o fundo é branco
+\subsection{Parte V}
 
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.5]{2-1.png}
-	\caption{Imagem binarizada}
-	\label{Original}
-\end{figure}
-
-\subsubsection*{2.2}
-A função \textit{bwareopen} para preencher espaços desconectados\newline
-\\ 
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.5]{2-buracos.png}
-	\caption{Imagem Buracos Preenchidos}
-	\label{Original}
-\end{figure}
-
-\subsubsection*{2.3}
-A distância foi calculada através da função \textit{bwdist} usando o complemento da imagem
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.5]{2distancia.png}
-	\caption{Distância}
-	\label{Original}
-\end{figure}
-
-\subsubsection*{2.4}
-Por fim, essa imagem foi segmentada, a fim de dividir os objetos que a compõe\newline
-\\ 
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.5]{2-wathershed.png}
-	\caption{Distância}
-	\label{Original}
-\end{figure}
-
-Nota-se que a imagem não foi perfeitamente segmentada, ou seja, os objetos não foram todos perfeitamente divididos, já que na binarização algumas células se mantiveram unidas, mesmo aplicando outras operações morfológicas para separá-las.
-
-\subsection{Parte III}
-Na terceira e última parte, foi feita uma função ler\_yuv que recebe como parâmetros um arquivo YUV, sua resolução, o formato (4:2:0) e o número do quadro a ser lido, e seu retorno é a imagem desse quadro.
-
-A seguir são feitas novas funções que estimam o movimento (DPCM) entre um quadro e outro, recuperados a partir da função já citada. Essas funções foram feitas a partir do algoritmo de Block Matching para estimação de movimento.
-
-As funções implementadas no projeto foram:
-
-\begin{itemize}
-	\item LogSearch;
-	\item Motion\_Est;
-	\item reconstruct;
-	\item FullSearch;
-	\item Bidirectional\_ME.
-\end{itemize}
-
-Resultados obtidos com blocos de tamanho 8x8 a partir dos frames 100 e 150 do arquivo '\textit{foreman.yuv}':
+Após os procedimetos de redimencionamento e relocalização da face recortada, começou o procedimento de pigmentação da pele da face recortada.\\
+Através desse procedimento tentamos aproximar-se ao máximo da cor da pele da face base para que não houvesse uma mudança de cor abrupta causando um desconforto visual. 
 
 \begin{figure}[h]
 \centering
-\subfigure[Vetores de movimento]{
-\includegraphics[scale=0.25]{3-1-motionvec.png}}
-\subfigure[1º Frame]{
-\includegraphics[scale=0.25]{3-1-f1.png}}
-\subfigure[2º Frame\label{red2}]{
-\includegraphics[scale=0.25]{3-1-f2.png}}
-\subfigure[Resultado\label{red2}]{
-\includegraphics[scale=0.25]{3-1-resultado.png}}
-\subfigure[SPRN]{
-\includegraphics[scale=0.25]{3-1-psnr.png}}
+\subfigure[Posição original]{
+\includegraphics[scale=0.6]{pigmentacao.png}}
 \end{figure}
 
-Resultados obtidos com blocos de tamanho 4x4 a partir dos frames 100 e 150 do arquivo '\textit{foreman.yuv}':
 
-\begin{figure}[h]
-\centering
-\subfigure[Vetores de movimento]{
-\includegraphics[scale=0.25]{3-2-motionvec.png}}
-\subfigure[1º Frame]{
-\includegraphics[scale=0.25]{3-2-f1.png}}
-\subfigure[2º Frame\label{red2}]{
-\includegraphics[scale=0.25]{3-2-f2.png}}
-\subfigure[Resultado\label{red2}]{
-\includegraphics[scale=0.25]{3-2-resultado.png}}
-\subfigure[SPRN]{
-\includegraphics[scale=0.25]{3-2-psnr.png}}
-\end{figure}
 
-É notório como quanto menor o bloco, melhor a estimativa do movimento.
-
-\ifCLASSOPTIONcaptionsoff
-  \newpage
-\fi
 
 \section{Conclusão}
 A partir dos resultados obtidos, na primeira parte nota-se que a definição da morfologia bottom-hat, que destaca objetos escuros sobre um fundo claro, aplicando fechamento na imagem para obter o fundo e posteriormente subtraindo a imagem por esse fundo encontrado é afirmada. Na segunda parte, aplicando segmentação seguindo os passos instruídos, tem-se o subdivisão da imagem em objetos ou regiões como era esperado, podendo servir para diversas aplicações que necessitam dos objetos isolados. E, por fim, um vídeo YUV é lido a partir dos parâmetros solicitados, e são recuperados frames especificos nessa função e aplica-se o algoritmo de Block Matching para estimação do movimento que foi claramente aplicado.
