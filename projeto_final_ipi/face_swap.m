@@ -3,10 +3,10 @@ clear all;
 clc;
 
 %Read the input image 
-k = imread('shake.jpg');
+k = imread('imagem11.jpg');
 Irecorte = imresize(k,[250 250]);
 %Read the input image 
-K = imread('imagem7.jpg');
+K = imread('imagem3.jpg');
 Ibase = imresize(K,[250 250]);
 
 KK = imread('branca.jpg');
