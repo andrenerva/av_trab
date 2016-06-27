@@ -85,7 +85,7 @@ Para isso foi utilizada a função do MATLAB \textit{convhull}, função que ret
 \includegraphics[scale=0.4]{covex_hull.png}}
 \end{figure}
 
-\subsection{Parte IV}
+\subsection*{Parte IV}
 
 A partir das características foram criados pontos de destino para o mapeamento de um rosto para o outro, e em seguida realizou-se o redimensionamento da face recortada para o tamanho da face base, para obter um encaixe preciso desse rosto a nova face. Obtendo assim a possição exata do rosto.
 Comparacao de posições:
@@ -100,22 +100,95 @@ Comparacao de posições:
 
 
 
-\subsection{Parte V}
+\subsection*{Parte V}
 
 Após os procedimetos de redimencionamento e relocalização da face recortada, começou o procedimento de pigmentação da pele da face recortada.\\
 Através desse procedimento tentamos aproximar-se ao máximo da cor da pele da face base para que não houvesse uma mudança de cor abrupta causando um desconforto visual. 
 
 \begin{figure}[h]
 \centering
-\subfigure[Posição original]{
-\includegraphics[scale=0.6]{pigmentacao.png}}
+\subfigure[]{
+\includegraphics[scale=0.5]{pigmentacao.png}}
 \end{figure}
 
 
 
+\subsection*{Parte VI}
 
+E ao final obtemos os seguinte resultado para a troca de face:
+
+\begin{figure}[h]
+\centering
+\subfigure[Faca transformada]{
+\includegraphics[scale=0.6]{face.png}}
+\end{figure}
+
+
+
+\subsection*{Transformação:}
+
+
+
+\begin{figure}[h]
+\centering
+\subfigure[Face transformada]{
+\includegraphics[scale=0.6]{transformacao.png}}
+\end{figure}
+
+
+\newpage
+
+
+\subsection*{Algumas tranformações:}
+
+
+
+
+\begin{figure}[h]
+\centering
+\subfigure[Face transformada]{
+\includegraphics[scale=0.37]{2.png}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\subfigure[Face transformada]{
+\includegraphics[scale=0.37]{3.png}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\subfigure[Face transformada]{
+\includegraphics[scale=0.37]{4.png}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\subfigure[Face transformada]{
+\includegraphics[scale=0.37]{5.png}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\subfigure[Face transformada]{
+\includegraphics[scale=0.37]{6.png}}
+\end{figure}
+
+\begin{figure}[h]
+\centering
+\subfigure[Face transformada]{
+\includegraphics[scale=0.37]{7.png}}
+\end{figure}
+
+\newpage
 \section{Conclusão}
-A partir dos resultados obtidos, na primeira parte nota-se que a definição da morfologia bottom-hat, que destaca objetos escuros sobre um fundo claro, aplicando fechamento na imagem para obter o fundo e posteriormente subtraindo a imagem por esse fundo encontrado é afirmada. Na segunda parte, aplicando segmentação seguindo os passos instruídos, tem-se o subdivisão da imagem em objetos ou regiões como era esperado, podendo servir para diversas aplicações que necessitam dos objetos isolados. E, por fim, um vídeo YUV é lido a partir dos parâmetros solicitados, e são recuperados frames especificos nessa função e aplica-se o algoritmo de Block Matching para estimação do movimento que foi claramente aplicado.
+A partir dos resultados obtidos, na primeira parte nota-se que a definição da morfologia bottom-hat, que destaca objetos escuros sobre um fundo claro, aplicando fechamento na imagem para obter o fundo e posteriormente subtraindo a imagem por esse fundo encontrado é afirmada. Na segunda parte, aplicando segmentação seguindo os passos instruídos, tem-se o subdivisão da imagem em objetos ou regiões como era esperado, podendo servir para diversas aplicações que necessitam dos objetos isolados. E, por fim, um vídeo YUV é lido a partir dos parâmetros solicitados, e são recuperados frames especificos nessa função e aplica-se o algoritmo de Block Matching para estimação do movimento que foi claramente aplicado.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+
 
 \begin{thebibliography}{1}
 

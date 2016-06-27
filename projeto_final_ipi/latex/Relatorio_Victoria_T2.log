@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.18)  27 JUN 2016 03:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (MiKTeX 2.9) (preloaded format=pdflatex 2016.4.18)  27 JUN 2016 04:49
 entering extended mode
 **./Relatorio_Victoria_T2.tex
 (Relatorio_Victoria_T2.tex
@@ -711,30 +711,146 @@ File: pigmentacao.png Graphic file (type png)
 
 <use pigmentacao.png>
 Package pdftex.def Info: pigmentacao.png used on input line 111.
+(pdftex.def)             Requested size: 159.59586pt x 129.85983pt.
+ <face.png, id=27, 319.1925pt x 259.7203pt>
+File: face.png Graphic file (type png)
+
+<use face.png>
+Package pdftex.def Info: face.png used on input line 123.
 (pdftex.def)             Requested size: 191.51697pt x 155.83337pt.
+ <transformacao.png, id=28, 421.575pt x 316.18124pt>
+File: transformacao.png Graphic file (type png)
+
+<use transformacao.png>
+Package pdftex.def Info: transformacao.png used on input line 135.
+(pdftex.def)             Requested size: 252.94695pt x 189.7102pt.
+
+Overfull \hbox (4.447pt too wide) in paragraph at lines 135--136
+ [][] 
+ []
+
+[2 <./posicao_original.png (PNG copy)> <./nova_posicao.png (PNG copy)> <./pigme
+ntacao.png (PNG copy)> <./face.png (PNG copy)> <./transformacao.png (PNG copy)>
+] <2.png, id=32, 421.575pt x 316.18124pt>
+File: 2.png Graphic file (type png)
+ <use 2.png>
+Package pdftex.def Info: 2.png used on input line 150.
+(pdftex.def)             Requested size: 155.9803pt x 116.98521pt.
+
+<3.png, id=33, 421.575pt x 316.18124pt>
+File: 3.png Graphic file (type png)
+ <use 3.png>
+Package pdftex.def Info: 3.png used on input line 156.
+(pdftex.def)             Requested size: 155.9803pt x 116.98521pt.
+
+<4.png, id=34, 421.575pt x 316.18124pt>
+File: 4.png Graphic file (type png)
+ <use 4.png>
+Package pdftex.def Info: 4.png used on input line 162.
+(pdftex.def)             Requested size: 155.9803pt x 116.98521pt.
+
+<5.png, id=35, 421.575pt x 316.18124pt>
+File: 5.png Graphic file (type png)
+ <use 5.png>
+Package pdftex.def Info: 5.png used on input line 168.
+(pdftex.def)             Requested size: 155.9803pt x 116.98521pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<6.png, id=36, 421.575pt x 316.18124pt>
+File: 6.png Graphic file (type png)
+ <use 6.png>
+Package pdftex.def Info: 6.png used on input line 174.
+(pdftex.def)             Requested size: 155.9803pt x 116.98521pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<7.png, id=37, 421.575pt x 316.18124pt>
+File: 7.png Graphic file (type png)
+ <use 7.png>
+Package pdftex.def Info: 7.png used on input line 180.
+(pdftex.def)             Requested size: 155.9803pt x 116.98521pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 124--125
+Underfull \hbox (badness 4686) in paragraph at lines 185--191
+\T1/aer/m/n/10 nota-se que a de-fi-ni-ção da mor-fo-lo-gia bottom-hat,
+ []
+
+
+Underfull \hbox (badness 2837) in paragraph at lines 185--191
+\T1/aer/m/n/10 que des-taca ob-je-tos es-cu-ros so-bre um fundo claro,
+ []
+
+
+Underfull \hbox (badness 1596) in paragraph at lines 185--191
+\T1/aer/m/n/10 en-con-trado é afir-mada. Na se-gunda parte, apli-cando
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--191
+\T1/aer/m/n/10 seg-men-ta-ção se-guindo os pas-sos ins-truí-dos, tem-
+ []
+
+
+Underfull \hbox (badness 2772) in paragraph at lines 185--191
+\T1/aer/m/n/10 se o sub-di-vi-são da ima-gem em ob-je-tos ou re-giões
+ []
+
+
+Underfull \hbox (badness 7869) in paragraph at lines 185--191
+\T1/aer/m/n/10 como era es-pe-rado, po-dendo ser-vir para di-ver-sas
+ []
+
+
+Underfull \hbox (badness 3679) in paragraph at lines 185--191
+\T1/aer/m/n/10 fun-ção e aplica-se o al-go-ritmo de Block Mat-ching
+ []
+
+
+Overfull \hbox (340.75977pt too wide) in paragraph at lines 185--191
+\T1/aer/m/n/10 cado.aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--191
+\T1/aer/m/n/10 aa-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-aaa aa-a-a-a-a-a-a-a-a-a-a-a-
+a-a-a-a-a-a-a-a-a-a-a-a-a-
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--191
+\T1/aer/m/n/10 a-a-a-a-a-a-a-aaa aa-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a-a
+-a-a-a-a-a-a-a-a-a-a-aaa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 197--198
 []\T1/aer/m/n/8 http://scholar.harvard.edu/stanleychan/software/subpixel-
  []
 
-[2 <./posicao_original.png (PNG copy)> <./nova_posicao.png (PNG copy)> <./pigme
-ntacao.png (PNG copy)>] (Relatorio_Victoria_T2.aux)
+[3 <./2.png (PNG copy)> <./3.png (PNG copy)> <./4.png (PNG copy)> <./5.png (PNG
+ copy)> <./6.png (PNG copy)>] [4
+
+ <./7.png (PNG copy)>]
+(Relatorio_Victoria_T2.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 3621 strings out of 493634
- 54070 string characters out of 3141291
+ 3661 strings out of 493634
+ 54497 string characters out of 3141291
  121023 words of memory out of 3000000
- 6886 multiletter control sequences out of 15000+200000
+ 6918 multiletter control sequences out of 15000+200000
  108184 words of font info for 133 fonts, out of 3000000 for 9000
  1028 hyphenation exceptions out of 8191
- 42i,9n,24p,769b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,9n,24p,883b,270s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb>
 <C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx9.pfb><C:
 /Program Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:
@@ -744,9 +860,9 @@ gram Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Progra
 m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Fi
 les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files 
 (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on Relatorio_Victoria_T2.pdf (2 pages, 394213 bytes).
+Output written on Relatorio_Victoria_T2.pdf (4 pages, 916582 bytes).
 PDF statistics:
- 58 PDF objects out of 1000 (max. 8388607)
+ 72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 56 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 96 words of extra memory for PDF output out of 10000 (max. 10000000)
 
