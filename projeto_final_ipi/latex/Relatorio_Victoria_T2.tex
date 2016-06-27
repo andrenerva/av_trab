@@ -9,6 +9,7 @@
 \usepackage{ae}
 \usepackage{color}
 \usepackage{epstopdf}
+\usepackage{placeins}
 
 
 \hyphenation{op-tical net-works semi-conduc-tor}
@@ -47,19 +48,21 @@ As imagem foram redimensionadas para 250x250 pixels para que pussuam as mesmas d
 \begin{figure}[h]
 \centering
 \subfigure[Imagem base]{
-\includegraphics[scale=0.25]{imagem1.jpg}}
+\includegraphics[scale=0.3]{imagem1.jpg}}
 \subfigure[Imagem recorte\label{red2}]{
-\includegraphics[scale=0.25]{imagem2.jpg}}
+\includegraphics[scale=0.3]{imagem2.jpg}}
 \end{figure}
 
+\newline
+
 \subsection*{Parte II}
-Logo em seguida, foram detectadas as regiões de interesse (olhos, nariz e boca) e recortadas da imagem.
+Logo em seguida, foram detectadas as regiões de interesse (olhos, nariz e boca) e recortadas da imagem.\\
 
 
 \begin{figure}[h]
 \centering
 \subfigure[Imagem detecção]{
-\includegraphics[scale=0.5]{deteccao.png}}
+\includegraphics[scale=0.3]{deteccao.png}}
 \subfigure[\label{red2}]{
 \includegraphics[scale=0.5]{olhos.png}}
 \subfigure[\label{red2}]{
@@ -67,55 +70,35 @@ Logo em seguida, foram detectadas as regiões de interesse (olhos, nariz e boca)
 \subfigure[\label{red2}]{
 \includegraphics[scale=0.5]{boca.png}}
 \end{figure}
-	
-Utilizando o MATLAB, um programa foi feito para que a imagem acima apresentada fosse modificada e resultasse em uma imagem binária com os objetos que a compõem pretos e fundo branco. Para isso, antes de qualquer coisa, a imagem foi binarizada e percebido que em certos pontos perdia-se informações, pois em alguns lugares o fundo e objetos estavam classificados em um mesmo nível de cinza fazendo com que objetos também se tornassem fundo. Então, fez-se a transformada bottom-hat que é é utilizada para realçar objetos escuros sobre fundo claro utilizando uma função do próprio MATLAB e alternativamente aplicando o fechamento na imagem obtendo apenas o seu fundo e depois subtraindo a fundo da imagem original, que também caracteriza uma operação bottom-hat, e os resultados obtidos foram:
+\floatBarrier	
+
+\subsection*{Parte III}
+
+Posteriormente, realizou-se a detecção das posições locais de recursos e limites nos rostos detectados.
+
+Para isso foi utilizada a função do MATLAB \textit{convhull}, função que retorna o casco convexo de um conjunto de pontos no espaço 2D ou 3D. Nesse caso, retorna o casco limitado pelos olhos, boca e nariz obtidos anteriormente. E também foi utilizada a função de detecção de bordas \textit{Sobel}.
+\begin{figure}[h]
+\centering
+\subfigure[Convex-hull e borda]{
+\includegraphics[scale=0.3]{borda.png}}
+\subfigure[Resultado \label{red2}]{
+\includegraphics[scale=0.3]{covex_hull.png}}
+\end{figure}
+
+\subsection{Parte IV}
+
+A partir das características foram criados pontos de destino para o mapeamento de um rosto para o outro. Obtendo assim a possição exata do rosto base.
+Comparacao de posição:
 
 \begin{figure}[h]
 \centering
-\subfigure[Imagem Bottom-Hat\_int]{
-\includegraphics[scale=0.25]{q1-bh1.png}}
-\subfigure[Fundo - Imagem\label{red2}]{
-\includegraphics[scale=0.25]{q1-bh2.png}}
-\end{figure}
-
-Nota-se que o objeto se destaca melhor na bottom-hat feito obtendo-se o fundo e posteriormente subtraindo esse fundo da imagem origina. Então, sobre essa imagem foi aplicada a operção de identidade inversa para que os objetos ficassem pretos e fundo branco.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.25]{q1-bh2-i.png}
-	\caption{Inverse bottom-hat}
-	\label{Original}
-\end{figure}
-
-Essa imagem foi binarizada para então destacar os objetos.
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.25]{q1-bh2-bin.png}
-	\caption{Bottom-hat binarizada}
-	\label{Original}
-\end{figure}
-
-Foram então percebidos falhas de preenchimento dos dígitos e certos ruídos na imagem, e para que melhorasse essa imagem foram aplicados outra operação morfológica de dilatação para completar os objetos em que havia falhas e um filtro de média para retirada dos ruídos. Por fim, ainda foi feito um fechamento para separar dígitos que se emendaram na dilatação
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.25]{fechamento.png}
-	\caption{Resultado}
-	\label{Original}
+\subfigure[Posição original]{
+\includegraphics[scale=0.3]{posicao_original.png}}
+\subfigure[Nova posicao \label{red2}]{
+\includegraphics[scale=0.3]{nova_posicao.png}}
 \end{figure}
 
 
-\subsection{Parte II}
-
-Na segunda parte, foram seguidos os passos solicitados e os resultados obtidos para tratar a imagem abaixo serão descritos a seguir
-
-\begin{figure}[!htb]
-	\centering
-	\includegraphics[scale=0.5]{2.png}
-	\caption{Original}
-	\label{Original}
-\end{figure}
 
 \subsubsection*{2.1}
 A imagem foi binarizada como na primeira parte, onde as células são pretas e o fundo é branco
